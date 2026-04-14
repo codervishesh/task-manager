@@ -1,5 +1,4 @@
 # Task Manager
-WEBSITE LINK:https://vercel.com/vshu1178-8262s-projects/task-manager
 A complete, full-stack Task Manager application built with React and Node.js/Express. It provides a clean, modern UI for managing daily tasks with a fully functional REST API.
 
 ## Features
