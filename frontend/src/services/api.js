@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/tasks';
+// Use environment variable if deployed, otherwise fallback to localhost
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/tasks';
 
 export const fetchTasks = () => axios.get(API_URL);
 export const createTask = (title) => axios.post(API_URL, { title });
