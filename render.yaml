@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: task-manager-api
+    name: task_manager_api
     env: node
     rootDir: backend
     buildCommand: npm install
