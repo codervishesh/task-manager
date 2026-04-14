@@ -1,5 +1,5 @@
 # Task Manager
-
+WEBSITE LINK:https://vercel.com/vshu1178-8262s-projects/task-manager
 A complete, full-stack Task Manager application built with React and Node.js/Express. It provides a clean, modern UI for managing daily tasks with a fully functional REST API.
 
 ## Features
@@ -32,7 +32,6 @@ A complete, full-stack Task Manager application built with React and Node.js/Exp
    ```bash
    npm run dev
    ```
-   *The backend will run on \`http://localhost:5000\`.*
 
 ### 2. Frontend Setup
 1. Open a new terminal and navigate to the frontend directory:
@@ -47,7 +46,6 @@ A complete, full-stack Task Manager application built with React and Node.js/Exp
    ```bash
    npm run dev
    ```
-   *The frontend will typically run on \`http://localhost:5173\` or \`5174\`.*
 
 ## Assumptions & Trade-offs Made
 - **Storage:** I chose to use an in-memory storage structure (a simple array in the Model) as permitted by the instructions to keep the setup minimal and focus on the core architecture and code quality. This means data will cleanly reset when the backend server restarts. If building for production, dropping in a real database like PostgreSQL or MongoDB would be the very next step, but the current layered controller/model architecture makes swapping that out straightforward without rewriting the logic.
